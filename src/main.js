@@ -18,7 +18,7 @@ const router=new VueRouter({
 		{path:"/",component:Web},
 		{path:"/exp",component:Exp},
 	],
-	mode:"history"   //去掉#
+	// mode:"history"   //去掉#
 })
 
 
