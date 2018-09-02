@@ -20,6 +20,9 @@
         <p class="csdn">
           <a href="https://blog.csdn.net/Biebersxzl" target="_blank"></a><br><span>CSDN</span>
         </p>
+        <p class="myblog">
+          <a href="https://xserena.github.io/my-blog" target="_blank"></a><br><span>我的博客</span>
+        </p>
       </div>
       <div class="conta">
         <p class="phone">
@@ -139,6 +142,9 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
   }
+   .myblog a{
+    background-image: url("./assets/img/X.png");
+  }
   .conta p{
     margin-bottom:30px; 
   }
@@ -159,4 +165,5 @@ img{
   .email span{
     background-image: url("./assets/img/qq.png");
   }
+
 </style>
