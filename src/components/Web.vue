@@ -35,6 +35,7 @@
 		  	return {		  		
 		  		items:[
 		  			{title:"在线翻译demo",points:["Vue.js","HTML","Bootswatch","JS"],des:"在线地址(PC端)",pagehref:"https://xserena.github.io/-demo/dist/index.html",linehref:"https://github.com/Xserena/-demo",imgUrl:require("../assets/img/tans.png"),tex:"使用vue-cli搭建，通过vue-resource模块向Translate API发送http请求，利用vue的一些基本指令及MVVM思想传输数据，实现一个在线翻译器的小demo。"},
+		  			{title:"收支记录demo",points:["Vue.js","Element-ui","Echarts","JS"],des:"在线地址(PC端)",pagehref:"https://xserena.github.io/vuefm/dist/index.html",linehref:"https://github.com/Xserena/vuefm",imgUrl:require("../assets/img/vuefm.png"),tex:"使用vue-cli搭建，ElementUi布局，sessionStorage和VueX存储数据，Echarts搭建折线图，记录生活收支趋势。"},
 		  			{title:"二千炸鸡店",points:["Vue-Cli","HTML","Bootswatch","JS"],des:"在线地址(PC端)",pagehref:"https://xserena.github.io/qianShop/dist/index.html",linehref:"https://github.com/Xserena/qianShop",imgUrl:require("../assets/img/qian.png"),tex:"使用vue-cli搭建，Vue-Router实现多级路由跳转；结合vue基本指令，vue的MVVM思想实现商品的选择，金额计算。但目前对IE不太友好。"},
 		  			{title:"购物车单页面",points:["Vue.js","HTML","CSS","JS"],des:"在线地址(手机端)",pagehref:"https://xserena.github.io/goShop/page.html",linehref:"https://github.com/Xserena/goShop",imgUrl:require("../assets/img/goshop.png"),tex:"使用Vue的MVVM思想模式，实现购物车单页面模拟。选择/删除商品，自动计算总价，合计。"},
 		  			{title:"网页设计一",points:["HTML","CSS","JS","Bootstrap"],des:"在线地址(PC端)",pagehref:"https://xserena.github.io/HomePage/HomePage.html",linehref:"https://github.com/Xserena/HomePage",imgUrl:require("../assets/img/homepage.png"),tex:"由HTML、CSS、JS原生制作的页面，添加了拖动按钮，单击拖动，双击打开，链接到其他的网址，百度搜索功能。"},
