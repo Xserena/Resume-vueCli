@@ -2,6 +2,12 @@
 	<div class="exp">
 		<ul>
 			<li class="acn">
+				<img src="../assets/img/key.svg">
+				<p>上海翎阳网络科技有限公司</p>
+				<p>2018.10-至今</p>
+				<p>前端工程师</p>
+			</li>
+			<li class="acn">
 				<img src="../assets/img/acn.png">
 				<p>埃森哲</p>
 				<p>2015.2--2017.7</p>
@@ -14,9 +20,6 @@
 				<p>咨询相关</p>
 			</li>
 		</ul>
-		<div class="tex">
-			小编是转行，所以以前的工作经验就轻描淡写了^ V ^
-		</div>
 	</div>
 </template>
 <script>

@@ -21,7 +21,7 @@
           <a href="https://blog.csdn.net/Biebersxzl" target="_blank"></a><br><span>CSDN</span>
         </p>
         <p class="myblog">
-          <a href="https://xserena.github.io/my-blog" target="_blank"></a><br><span>我的博客</span>
+          <a href="https://xserena.github.io/blog/index.html" target="_blank"></a><br><span>我的博客</span>
         </p>
       </div>
       <div class="conta">
@@ -54,7 +54,7 @@ export default {
   name: 'app',
   data(){
     return {          
-      user:{name:"谢卓玲",age:"27岁",univer:"西南大学--本科",career:"web前端",phone:"18780162375",email:"2286465251@qq.com"}
+      user:{name:"谢卓玲",age:"1991",univer:"西南大学--本科",career:"web前端",phone:"18780162375",email:"2286465251@qq.com"}
     }
   },
   components: {

@@ -6,15 +6,15 @@
 			<span>JS</span>
 			<span>Vue.js</span>
 		</p>
-		<div class="content" v-for="item in items">
+		<div class="content" v-for="item in items" :key="item">
 			<div class="content_detail" >
 				<div class="text">
 					<h3>{{item.title}}</h3>
 					<p >
-						<span v-for="point in item.points">{{point}}</span>
+						<span v-for="point in item.points" :key="point">{{point}}</span>
 					</p>
 					<p><a :href="item.pagehref" target="_blank">{{item.des}}</a>
-					<a :href="item.linehref" target="_blank">源码地址</a></p>
+					<a :href="item.linehref" target="_blank">{{item.linehref ? "源码地址": null}}</a></p>
 					<p class="show">描述：{{item.tex}}</p>
 				</div>
 				<div class="img">
@@ -34,6 +34,8 @@
 		  data(){
 		  	return {		  		
 		  		items:[
+					{title:"数字货币管理产品",points:["React","React Native","MobX","TypeScript"],des:"下载网址",pagehref:"https://enterprise.keystore.com/download.html",imgUrl:require("../assets/img/keystoreEle.png"),tex:"主要参与客户端界面及功能开发，采用React+MobX实现界面及数据的存储，对应和Java开发人员进行 前后端接口调试。"},
+					{title:"数字货币管理产品",points:["Vue.js","HTML"],des:"在线网址(PC端+移动端)",pagehref:"https://www.keystore.com",imgUrl:require("../assets/img/keystore.png"),tex:"采用Vue框架搭建，axios实现跨域请求。"},
 		  			{title:"在线翻译demo",points:["Vue.js","HTML","Bootswatch","JS"],des:"在线地址(PC端)",pagehref:"https://xserena.github.io/-demo/dist/index.html",linehref:"https://github.com/Xserena/-demo",imgUrl:require("../assets/img/tans.png"),tex:"使用vue-cli搭建，通过vue-resource模块向Translate API发送http请求，利用vue的一些基本指令及MVVM思想传输数据，实现一个在线翻译器的小demo。"},
 		  			{title:"收支记录demo",points:["Vue.js","Element-ui","Echarts","JS"],des:"在线地址(PC端)",pagehref:"https://xserena.github.io/vuefm/dist/index.html",linehref:"https://github.com/Xserena/vuefm",imgUrl:require("../assets/img/vuefm.png"),tex:"使用vue-cli搭建，ElementUi布局，sessionStorage和VueX存储数据，Echarts搭建折线图，记录生活收支趋势。"},
 		  			{title:"二千炸鸡店",points:["Vue-Cli","HTML","Bootswatch","JS"],des:"在线地址(PC端)",pagehref:"https://xserena.github.io/qianShop/dist/index.html",linehref:"https://github.com/Xserena/qianShop",imgUrl:require("../assets/img/qian.png"),tex:"使用vue-cli搭建，Vue-Router实现多级路由跳转；结合vue基本指令，vue的MVVM思想实现商品的选择，金额计算。但目前对IE不太友好。"},
